@@ -16,6 +16,7 @@ services:
       ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
       APP_KEYS: ${APP_KEYS}
       NODE_ENV: ${NODE_ENV}
+      RESEND_API_KEY: ${RESEND_API_KEY}
     volumes:
       - ./config:/opt/app/config
       - ./src:/opt/app/src

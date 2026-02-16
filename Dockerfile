@@ -6,6 +6,8 @@ COPY package*.json ./
 
 RUN npm install
 
+RUN npm i strapi-provider-email-resend
+
 COPY . .
 
 RUN npm run build
